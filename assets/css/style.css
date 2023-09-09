@@ -513,12 +513,16 @@ profile background color if pic is croped*/
 }
 
 .skills__html{
-    width: 70%;
+    width: 100%;
 }
 .skills__css{
-    width: 60%;
+    width: 100%;
 }
 .skills__js{
+    width: 100%;
+}
+
+.skills_react{
     width: 40%;
 }
 
@@ -624,7 +628,7 @@ profile background color if pic is croped*/
     transition: .3s;
 }
 
-.services__container:hover{
+.services__content:hover{
     box-shadow: 0 4px 8px rgba(0,0,0,.15);
 }
 
@@ -720,7 +724,8 @@ profile background color if pic is croped*/
 }
 
 .portfolio__img{
-    width: 265px;
+    width: 200px;
+    height: 200px;
     border-radius: .5rem;
     justify-self: center;
 }
@@ -764,36 +769,6 @@ profile background color if pic is croped*/
 .swiper-button-next,
 .swiper-pagination-bullet{
     outline: none;
-}
-
-/* ================================== PROJECT =================================== */
-.project{
-    text-align: center;
-}
-
-.project__bg{
-    background-color: var(--first-color-second);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.project__title{
-    font-size: var(--h2-font-size);
-    margin-bottom: var(--mb-0-75);
-}
-
-.project__description{
-    margin-bottom: var(--mb-1-5);
-}
-
-.project__title,
-.project__description{
-    color: #FFF;
-}
-
-.project__img{
-    width: 500px;
-    justify-self: center;
 }
 
 /*============================ CONTACT ME ===================================*/
